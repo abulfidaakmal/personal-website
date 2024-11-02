@@ -2,7 +2,7 @@ import { addDynamicIconSelectors } from "@iconify/tailwind";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     container: {
       center: true,

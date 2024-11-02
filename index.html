@@ -9,7 +9,7 @@
   <body class="bg-dark">
     <nav class="fixed z-50 flex w-full shadow-lg h-14 bg-dark">
       <ul
-        class="container flex items-center justify-center gap-6 text-sm font-semibold lg:text-lg text-primary"
+        class="container flex items-center justify-center gap-3 text-sm font-semibold md:gap-6 md:text-lg text-primary"
       >
         <li><a href="#home">Beranda</a></li>
         <li><a href="#about">Tentang Saya</a></li>
@@ -18,15 +18,18 @@
         <li><a href="#contact">Kontak</a></li>
       </ul>
     </nav>
-    <section id="home" class="container items-center justify-between lg:flex">
+    <section
+      id="home"
+      class="container items-center justify-between h-screen lg:flex"
+    >
       <div class="pt-32 h-max lg:pt-0">
-        <h6 class="text-xl font-semibold text-secondary lg:text-2xl">
+        <h6 class="text-xl font-semibold text-secondary md:text-2xl">
           Halo Semua, saya
         </h6>
-        <h1 class="text-3xl font-bold text-primary lg:text-5xl">
+        <h1 class="text-3xl font-bold text-primary md:text-5xl">
           Abulfida Akmal
         </h1>
-        <h2 class="mt-2 text-lg font-semibold text-primary/60 lg:text-xl">
+        <h2 class="mt-2 text-lg font-semibold text-primary/60 md:text-xl">
           Saya Adalah Seorang Web & Backend Developer
         </h2>
         <button
@@ -37,7 +40,10 @@
       </div>
       <img src="./src/assets/ilustrasi.webp" width="700" height="700" />
     </section>
-    <section id="about" class="py-16 bg-gray-800">
+    <section
+      id="about"
+      class="py-16 bg-gray-800 lg:grid lg:items-center lg:h-screen"
+    >
       <div class="container">
         <h1 class="text-2xl font-bold text-center text-secondary lg:text-3xl">
           Tentang saya
@@ -47,20 +53,30 @@
           style="font-family: sans-serif"
         >
           <p>
-            Saya adalah Fresh graduate SMA dengan keterampilan di bidang
-            pengembangan web dan pemrograman. Memiliki pengetahuan mendalam
-            dalam teknologi seperti NestJS, TypeScript, ExpressJS, Node.js,
-            JavaScript, TailwindCSS, ReactJS, CSS, HTML, dan lain sebagainya.
-            Saya bersemangat untuk menerapkan keterampilan teknis dalam
-            proyek-proyek pengembangan web dan terus belajar serta berkembang
-            dalam industri teknologi.
+            Saya adalah seorang lulusan SMA dengan spesialisasi dalam
+            pengembangan web dan pemrograman. Saya memiliki keterampilan dalam
+            teknologi modern seperti <strong>NestJS</strong>,
+            <strong>TypeScript</strong>, <strong>ExpressJS</strong>,
+            <strong>Node.js</strong>, <strong>JavaScript</strong>,
+            <strong>ReactJS</strong>, <strong>TailwindCSS</strong>,
+            <strong>CSS</strong>, <strong>HTML</strong>,
+            <a href="#skills" class="underline">dan sebagainya</a>. Meskipun
+            saya masih berada di awal karir, saya telah mengerjakan berbagai
+            proyek pribadi dan mengikuti kursus online untuk mengembangkan
+            keterampilan teknis saya.
           </p>
           <p>
-            Saya telah aktif mengerjakan proyek-proyek pribadi dan mengikuti
-            kursus online untuk mengembangkan keterampilan saya. Dengan semangat
-            yang tinggi untuk belajar dan mengeksplorasi teknologi, Bertekad
-            untuk terus meningkatkan keterampilan saya dan berkontribusi dalam
-            proyek-proyek pengembangan web yang menantang.
+            Sebagai seseorang yang bersemangat belajar, saya memiliki komitmen
+            yang kuat untuk terus meningkatkan kemampuan saya. Saya bertekad
+            untuk berkontribusi pada proyek pengembangan web yang menantang, di
+            mana saya bisa menerapkan keterampilan saya, sekaligus belajar dari
+            para profesional di industri ini.
+          </p>
+          <p>
+            Dengan pendekatan yang teliti, tekun, dan keinginan untuk terus
+            berkembang, saya berharap dapat menjadi bagian dari tim yang
+            inovatif dan memberikan kontribusi nyata dalam menciptakan solusi
+            berbasis teknologi yang efektif dan efisien.
           </p>
         </div>
       </div>
@@ -71,11 +87,16 @@
       </h1>
       <div class="grid justify-center gap-8 my-10 lg:grid-cols-3">
         <div>
-          <img
-            src="./src/assets/Traveling Website.png"
-            alt="Traveling Website"
-            class="rounded-md"
-          />
+          <a
+            href="https://github.com/abulfidaakmal/Travelling-Website"
+            target="_blank"
+          >
+            <img
+              src="./src/assets/Traveling Website.png"
+              alt="Traveling Website"
+              class="transition-transform duration-500 ease-out transform rounded-md hover:scale-105 hover:rotate-1 hover:contrast-50 hover:delay-200"
+            />
+          </a>
           <h3 class="mt-2 text-xl font-bold text-primary">Traveling Website</h3>
           <div class="grid text-primary/60">
             <span>
@@ -95,11 +116,16 @@
           </div>
         </div>
         <div>
-          <img
-            src="./src/assets/E-Commerce.png"
-            alt="Traveling Website"
-            class="rounded-md"
-          />
+          <a
+            href="https://github.com/abulfidaakmal/ecommerce-react-bun"
+            target="_blank"
+          >
+            <img
+              src="./src/assets/E-Commerce.png"
+              alt="Traveling Website"
+              class="transition-transform duration-500 ease-out transform rounded-md cursor-pointer hover:scale-105 hover:rotate-1 hover:contrast-50 hover:delay-200"
+            />
+          </a>
           <h3 class="mt-2 text-xl font-bold text-primary">E-Commerce</h3>
           <div class="grid text-primary/60">
             <span
@@ -111,11 +137,16 @@
           </div>
         </div>
         <div>
-          <img
-            src="./src/assets/Travel Agency Landing Page.png"
-            alt="Travel Agency Landing Page"
-            class="rounded-md"
-          />
+          <a
+            href="https://github.com/abulfidaakmal/Travel-Agency"
+            target="_blank"
+          >
+            <img
+              src="./src/assets/Travel Agency Landing Page.png"
+              alt="Travel Agency Landing Page"
+              class="transition-transform duration-500 ease-out transform rounded-md cursor-pointer hover:scale-105 hover:rotate-1 hover:contrast-50 hover:delay-200"
+            />
+          </a>
           <h3 class="mt-2 text-xl font-bold text-primary">
             Travel Agency Landing Page
           </h3>
@@ -137,11 +168,13 @@
           </div>
         </div>
       </div>
-      <button
-        class="block px-4 py-2 mx-auto font-semibold transition duration-500 rounded-md text-primary bg-secondary hover:opacity-80 hover:shadow-lg"
+      <a
+        href="https://github.com/abulfidaakmal?tab=repositories"
+        target="_blank"
+        class="block px-4 py-2 mx-auto font-semibold transition duration-500 rounded-md w-max text-primary bg-secondary hover:opacity-80 hover:shadow-lg"
       >
         Lihat Semua
-      </button>
+      </a>
     </section>
     <section id="skills" class="py-20 bg-gray-800">
       <h1 class="text-2xl font-bold text-center text-secondary lg:text-3xl">
@@ -269,6 +302,14 @@
           <p class="mt-2 font-semibold text-center text-primary">
             Prisma (ORM)
           </p>
+        </a>
+        <a
+          href="https://git-scm.com/"
+          target="_blank"
+          class="grid w-40 px-3 py-2 rounded-md place-items-center bg-dark h-36"
+        >
+          <span class="icon-[vscode-icons--file-type-git] w-16 h-16"></span>
+          <p class="mt-2 font-semibold text-center text-primary">Git</p>
         </a>
         <a
           href="https://jestjs.io/"
